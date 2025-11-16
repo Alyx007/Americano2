@@ -1,0 +1,52 @@
+[
+  {
+    "description": "Melancholia",
+    "coverName": "aniemowilem",
+    "artistName": "Kaz Bałagane"
+  },
+  {
+    "description": "Warszawa",
+    "coverName": "warszawa",
+    "artistName": "Taco Hemingway"
+  },
+  {
+    "description": "Klasyk",
+    "coverName": "kinematografia",
+    "artistName": "Paktofonika"
+  },
+  {
+    "description": "Wsłuchaj się",
+    "coverName": "radiogruz",
+    "artistName": "Kaz Bałagane"
+  },
+  {
+    "description": "Refleksja",
+    "coverName": "szprycer",
+    "artistName": "Taco Hemingway"
+  },
+  {
+    "description": "Manifest",
+    "coverName": "archiwum",
+    "artistName": "Paktofonika"
+  },
+  {
+    "description": "Zmrok",
+    "coverName": "kaz_balagane_nocne_zmory_cover.jpg",
+    "artistName": "Kaz Bałagane"
+  },
+  {
+    "description": "Lato",
+    "coverName": "taco_hemingway_warszawa_wschod_cover.jpg",
+    "artistName": "Taco Hemingway"
+  },
+  {
+    "description": "Ulotność",
+    "coverName": "paktofonika_chwile_ulotne_cover.jpg",
+    "artistName": "Paktofonika"
+  },
+  {
+    "description": "Bengal",
+    "coverName": "kaz_balagane_bengal_cover.jpg",
+    "artistName": "Kaz Bałagane"
+  }
+]

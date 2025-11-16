@@ -1,5 +1,5 @@
 //
-//  RecomnedationViewModel.swift
+//  SoundViewModel.swift
 //  AccessMusic
 //
 //  Created by Aleksandra Stupiec on 14/11/25.
@@ -7,12 +7,13 @@
 
 import Foundation
 
-class RecomnedationViewModel {
-    var arrRecomendation = [RecomendationModel]()
+class SoundViewModel {
+    
+    var arrSound = [SoundModel]()
     
     init() {
-        arrRecomendation = load("recomendations.json")
-        print(arrRecomendation)
+        arrSound = load("hiphop.json")
+        print(arrSound)
     }
     
     func load<T: Decodable>(_ filename: String) -> T {

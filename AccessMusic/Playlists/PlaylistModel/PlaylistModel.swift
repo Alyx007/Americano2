@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct PlaylistModel: Identifiable {
+struct PlaylistModel: Identifiable, Decodable {
     var id: UUID = UUID()
     var playlistName: String
     var playlistDesc: String

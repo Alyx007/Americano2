@@ -20,11 +20,12 @@ struct SoundDetailView: View {
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
             
-            
             Image(sound.coverName)
                 .resizable()
                 .frame(width: 140, height: 140)
                 .clipShape(.rect(cornerRadius: 12))
+                .accessibilityLabel(sound.coverName)
+
         }
     }
 }

@@ -8,7 +8,7 @@
 import Foundation
 
 
-class PlaylistiewModel: Decodable {
+class PlaylistiewModel {
     
     var arrPlaylist = [PlaylistModel]()
     

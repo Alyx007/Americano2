@@ -12,8 +12,8 @@ struct MainView: View {
         NavigationStack {
                     ScrollView {
                         VStack(alignment: .leading){
-                            HStack(spacing: 100) {
-                                Text("Listen Now")
+                            HStack(spacing: 190) {
+                                Text("Home")
                                     .font(.largeTitle.bold())
                                     .padding()
                                 
@@ -24,11 +24,13 @@ struct MainView: View {
                                     .padding()
                             }
                             
-                            Text("Your personal mix and recent favorites")
-                                .font(.subheadline)
-                                .foregroundColor(.secondary)
-                                .padding()
+                            Text("Top Picks for You")
+                                .font(.title3.bold())
+                                .foregroundColor(.primary)
+                                .padding(.horizontal)
+                            RecomendationsView()
                             
+                            NewSoundsView()
                             
                         }
                     }

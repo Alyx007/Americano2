@@ -1,0 +1,42 @@
+[
+    {
+        "description": "Marmur",
+        "coverName": "taco_marmur.jpg"
+    },
+    {
+        "description": "Soma 0,5 mg",
+        "coverName": "quebonafide_soma.jpg"
+    },
+    {
+        "description": "Jestem Bogiem",
+        "coverName": "paktofonika_jestem_bogiem.jpg"
+    },
+    {
+        "description": "Audemars Piguet",
+        "coverName": "kaz_balagane_ap.jpg"
+    },
+    {
+        "description": "Art Brut",
+        "coverName": "sokol_art_brut.jpg"
+    },
+    {
+        "description": "Wojtek Sokół",
+        "coverName": "sokol_sokol.jpg"
+    },
+    {
+        "description": "Podróż Zwana Życiem",
+        "coverName": "ostr_podroz.jpg"
+    },
+    {
+        "description": "Gdzie jest Eis?",
+        "coverName": "eis_gdzie_jest_eis.jpg"
+    },
+    {
+        "description": "Na Serio",
+        "coverName": "peja_na_serio.jpg"
+    },
+    {
+        "description": "Romantic Psycho",
+        "coverName": "quebonafide_romantic_psycho.jpg"
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "albumName": "Skryptonite",
+        "artistName": "Скриптонит (Scriptonite)",
+        "coverName": "scriptonite_skryptonite.jpg"
+    },
+    {
+        "albumName": "Redox",
+        "artistName": "Oxxxymiron",
+        "coverName": "oxxxymiron_redox.jpg"
+    },
+    {
+        "albumName": "Legenda",
+        "artistName": "Miyagi & Andy Panda",
+        "coverName": "miyagi_legend.jpg"
+    },
+    {
+        "albumName": "Mattoni",
+        "artistName": "Capo Plaza",
+        "coverName": "capoplaza_mattoni.jpg"
+    },
+    {
+        "albumName": "Uscito Ora",
+        "artistName": "Sfera Ebbasta",
+        "coverName": "sfera_uscito_ora.jpg"
+    },
+    {
+        "albumName": "Mr. Fini",
+        "artistName": "Gué Pequeno",
+        "coverName": "gue_mrfini.jpg"
+    },
+    {
+        "albumName": "Konnichiwa",
+        "artistName": "Skepta",
+        "coverName": "skepta_konnichiwa.jpg"
+    },
+    {
+        "albumName": "Gang Signs & Prayer",
+        "artistName": "Stormzy",
+        "coverName": "stormzy_gsap.jpg"
+    },
+    {
+        "albumName": "Psychodrama",
+        "artistName": "Dave",
+        "coverName": "dave_psychodrama.jpg"
+    },
+    {
+        "albumName": "Dans la légende",
+        "artistName": "PNL",
+        "coverName": "pnl_dans_la_legende.jpg"
+    },
+    {
+        "albumName": "Saison 3",
+        "artistName": "PLK",
+        "coverName": "plk_saison3.jpg"
+    },
+    {
+        "albumName": "La Fête Est Finie",
+        "artistName": "Orelsan",
+        "coverName": "orelsan_fete_finie.jpg"
+    },
+    {
+        "albumName": "Astroworld",
+        "artistName": "Travis Scott",
+        "coverName": "travis_astroworld.jpg"
+    },
+    {
+        "albumName": "DAMN.",
+        "artistName": "Kendrick Lamar",
+        "coverName": "kendrick_damn.jpg"
+    }
+]
