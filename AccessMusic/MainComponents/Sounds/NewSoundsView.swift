@@ -15,7 +15,7 @@ struct NewSoundsView: View {
         VStack {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack {
-                    
+                    ForEach(SoundVM.arrSound) {item in SoundDetailView(sound: item)}
                 }
                 .padding(.horizontal, 20)
             }
