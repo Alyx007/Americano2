@@ -9,27 +9,32 @@ import SwiftUI
 
 struct DiscoverView: View {
     var body: some View {
-        VStack {
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack {
-                    VStack(alignment: .leading) {
-                        Text("Hello, catchy title!")
-                            .font(.headline)
-                        Text("Hello, catchy secondary title!")
-                            .font(.subheadline)
-                            .foregroundStyle(.secondary)
+        NavigationStack {
+            ScrollView {
+                VStack(alignment: .leading){
+                    HStack(spacing: 190) {
+                        Text("Home")
+                            .font(.largeTitle.bold())
+                            .padding()
                         
-                        
-                        RoundedRectangle(cornerRadius: 12)
-                            .fill(Color.gray.opacity(0.15))
-                            .frame(width: 140, height: 140)
+                        Image("profilePic")
+                            .resizable()
+                            .frame(width: 50, height: 50)
+                            .clipShape(Circle())
+                            .padding()
                     }
-                    .padding(.horizontal, 20)
+                    
+                    Text("Top Picks for You")
+                        .font(.title3.bold())
+                        .foregroundColor(.primary)
+                        .padding(.horizontal)
+                    RecomendationsView()
+                    
+                    NewSoundsView()
+                    
                 }
-                
-            }
-
-        }    }
+            }    }
+    }
 }
 
 #Preview {

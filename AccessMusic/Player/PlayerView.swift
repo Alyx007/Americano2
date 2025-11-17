@@ -22,10 +22,10 @@ struct PlayerView: View {
                 .padding()
             
             VStack(alignment: .leading ,spacing: 4) {
-                Text("Midnight Sky")
+                Text("Chodź")
                     .font(.headline.bold())
                     .lineLimit(1)
-                Text("Miley Cyrus")
+                Text("Taco Hemingway")
                     .font(.subheadline)
                     .foregroundColor(.secondary)
             }
