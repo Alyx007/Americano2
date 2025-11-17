@@ -16,6 +16,8 @@ struct DiscoverDetailView: View {
             .clipShape(Rectangle())
             .frame(width: 25.0, height: 25.0)
             .accessibilityLabel(discover.albumName)
+            .accessibility(hidden: true)
+
     }
 }
 

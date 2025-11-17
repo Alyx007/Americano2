@@ -20,6 +20,7 @@ struct PlayerView: View {
                 .clipShape(Rectangle())
                 .cornerRadius(16)
                 .padding()
+                .accessibility(hidden: true)
             
             VStack(alignment: .leading ,spacing: 4) {
                 Text("Chodź")

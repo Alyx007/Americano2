@@ -12,8 +12,8 @@ struct DiscoverView: View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading){
-                    HStack(spacing: 190) {
-                        Text("Home")
+                    HStack(spacing: 140) {
+                        Text("Discover")
                             .font(.largeTitle.bold())
                             .padding()
                         
@@ -22,18 +22,18 @@ struct DiscoverView: View {
                             .frame(width: 50, height: 50)
                             .clipShape(Circle())
                             .padding()
+                        
                     }
                     
-                    Text("Top Picks for You")
+                    Text("Discover new sounds")
                         .font(.title3.bold())
                         .foregroundColor(.primary)
                         .padding(.horizontal)
-                    RecomendationsView()
                     
-                    NewSoundsView()
                     
                 }
-            }    }
+            }
+        }
     }
 }
 

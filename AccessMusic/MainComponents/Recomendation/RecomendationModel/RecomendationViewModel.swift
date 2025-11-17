@@ -7,7 +7,7 @@
 
 import Foundation
 
-class RecomnedationViewModel {
+class RecomendationViewModel {
     var arrRecomendation = [RecomendationModel]()
     
     init() {

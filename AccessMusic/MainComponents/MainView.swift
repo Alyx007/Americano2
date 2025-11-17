@@ -10,38 +10,43 @@ import SwiftUI
 struct MainView: View {
     var body: some View {
         NavigationStack {
-                    ScrollView {
-                        VStack(alignment: .leading){
-                            HStack(spacing: 190) {
-                                Text("Home")
-                                    .font(.largeTitle.bold())
-                                    .padding()
-                                
-                                Image("profilePic")
-                                    .resizable()
-                                    .frame(width: 50, height: 50)
-                                    .clipShape(Circle())
-                                    .padding()
-                            }
-                            
-                            Text("Top Picks for You")
-                                .font(.title3.bold())
-                                .foregroundColor(.primary)
-                                .padding(.horizontal)
-                            RecomendationsView()
-                            
-                            NewSoundsView()
-                            
-                        }
+            ScrollView {
+                VStack(alignment: .leading){
+                    HStack(spacing: 180) {
+                        Text("Home")
+                            .font(.largeTitle.bold())
+                            .padding()
+                            .accessibility(addTraits: .isHeader)
+                        
+                        
+                        Image("profilePic")
+                            .resizable()
+                            .frame(width: 50, height: 50)
+                            .clipShape(Circle())
+                            .padding()
+                            .accessibility(label: Text("Profile"))
                     }
                     
+                    Text("Top Picks for You")
+                        .font(.title3.bold())
+                        .foregroundColor(.primary)
+                        .padding(.horizontal)
+                        .accessibility(addTraits: .isHeader)
+                    
+                    RecomendationsView()
+                    
+                    NewSoundsView()
+                    
                 }
-                
             }
+            
         }
-
-    
-    
-    #Preview {
-        MainView()
+        
     }
+}
+
+
+
+#Preview {
+    MainView()
+}

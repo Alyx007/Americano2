@@ -13,6 +13,14 @@ struct PlaylistsView: View {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack {
                     VStack(alignment: .leading) {
+                        
+                            Text("Your Playlists")
+                                .font(.largeTitle.bold())
+                                .padding(.bottom)
+                                .accessibility(addTraits: .isHeader)
+                            
+                        
+
                         Text("Hello, catchy title!")
                             .font(.headline)
                         Text("Hello, catchy secondary title!")

@@ -8,11 +8,28 @@
 import SwiftUI
 
 struct RecomendationDetailView: View {
+    
+    var recomendation : RecomendationModel
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            VStack(alignment: .leading) {
+                Text(recomendation.description)
+                    .font(.headline)
+                    .foregroundStyle(.secondary)
+                
+                
+                Image(recomendation.coverName)
+                    .resizable()
+                    .clipShape(.rect(cornerRadius: 12))
+                    .frame(width: 200, height: 250)
+            }
+            .padding(.horizontal, 20)
+            
+        }
     }
 }
 
 #Preview {
-    RecomendationDetailView()
+    RecomendationDetailView(recomendation: RecomendationModel.dummy)
 }
