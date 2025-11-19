@@ -1,26 +1,34 @@
 # AxMusic
 
+```swift
+let greeting = "Hello, whoever you are and whatever you're looking for here!"
+print(greeting)
+```
 
-## About []
+Apple Music wannabe project with accesibility features I wanted to get to know and learn without touching AI. Enjoy! 💥
+
+## About
 
 This project is a simplified recreation of Apple Music for Apple iOS environment. The main goal is to learn about accesibility and it's implementation as a veriety of options in the application. 
+The focus of this project was to understnd and notice where the accesible implementations are welcome, where to simplify the App or what needs to be put clearer.
 
 ## Written in Swift and SwiftUI
 
-This sample is written in both Objective-C and Swift. Both versions of the sample are at the top level directory of this project in folders named "Objective-C" and "Swift". Both versions of the application have the exact same visual appearance; however, the code and structure may be different depending on the choice of language.
+This app is written in Swift and SwiftUI framework for iOS environment.
 
-## Swift Features
+## My learnings
 
+* Assistive Technologies like VoiceOver, Voice Control, Eye and Head Tracking
+* Explored available accesibility options in iOS
+* GitHub 
+* Parsing of a JSON file in Swift
+* Making models, view models from scratch using json data
+* Improving my coding skills by creating navigation and customizing the Views
+* Problem Solving without using AI
 
 ## Application Architecture
-
-### iOS
 
 
 
 ## App usage Requirements
 + iOS 26.1 or later
-
-### Configuring the Project on your  device
-
-
